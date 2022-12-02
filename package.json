@@ -1,0 +1,19 @@
+{
+  "name": "favorite",
+  "private": true,
+  "version": "0.9.0",
+  "description": "Edit, Preview, Deploy Document online!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "document",
+    "edit",
+    "deploy"
+  ],
+  "author": "Ziv",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

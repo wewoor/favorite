@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: docus
+
+spec:
+  selector:
+    matchLabels:
+      app: docus
+
+  replicas: 1 # 告知 Deployment 运行 2 个与该模板匹配的 Pod
+
+  template:
+    metadata:
+      labels:
+        app: docus
+
+    spec:
+      containers:
+        - name: docus
+          image: node:16
+          ports:
+            - containerPort: 3000
+          volumeMounts:
+            - mountPath: /Users/ziv/github.com/favorite/workspace
+              name: favorite-pv
+      volumes:
+        - name: fefe
+
