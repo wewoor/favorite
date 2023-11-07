@@ -1,4 +1,11 @@
-# Favorite
+# Favorite 
+
+Preview, create, and edit the document site of [Docusaurus](https://docusaurus.io/) on the cloud.
+
+## Introduction
+
+Favorite is a  document site editor running on the cloud, you can create and change your Docusaurus markdown file, and preview it on the web. 
+This is just a toy project, just for learning, not used for production.
 
 ## Tech Stack
 
